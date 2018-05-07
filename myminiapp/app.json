@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/main-page/main-page",
+    "pages/special-page/special-page",
+    "pages/article-page/article-page",
+    "pages/picture-page/picture-page",
+    "pages/video-page/video-page",
+    "pages/doclive-page/doclive-page",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mycenter/mycenter"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "来吧！体育狂",
+    "navigationStyle": "default",
+    "navigationBarTextStyle":"#fff",
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "durk",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/main-page/main-page",
+        "iconPath": "images/home01.png",
+        "selectedIconPath":"images/home02.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/mycenter/mycenter",
+        "iconPath":"images/mycenter01.png",
+        "selectedIconPath": "images/mycenter02.png",
+        "text": "个人中心"
+      }
+    ]
+  }
+}
